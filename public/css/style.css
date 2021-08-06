@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 :root {
-	/* --dark-color-a: #667aff;
-	--dark-color-b: #7386ff;
-	--light-color: #e6e9ff;
-	--success-color: #5cb85c;
-	--error-color: #d9534f; */
 	
     --dark-color-a: #0a0a0a;
     --dark-color-b: #3e3e3e;
@@ -77,6 +72,7 @@ a {
 	overflow-y: scroll;
 }
 
+
 .chat-sidebar h2 {
 	font-size: 20px;
 	background: rgba(0, 0, 0, 0.1);
@@ -103,7 +99,59 @@ a {
 	margin-bottom: 15px;
 	background-color: var(--light-color);
 	border-radius: 5px;
+
 }
+/* need to fix right and left pannel */
+/*
+.message-local{
+	position:relative;
+	   max-width: 45%;
+	padding:5px 10px;
+	  margin: 0.3em 2em;
+	color:white; 
+	background: rgb(8, 8, 71);
+	border-radius:25px;
+	clear: both;
+		
+	\ &:before{
+	content: ' ';
+	height: 0;
+	position: absolute;
+	width: 0;
+	border: .6em solid transparent; /* arrow size */
+	   /* border-right-color: $primaryColor;  /* arrow color */
+	/* positioning */
+	/* position: absolute;
+	bottom: 21%;
+	left: -1em;
+	} 
+}
+
+.message-remote{
+	position:relative;
+	  max-width: 45%;
+	padding:5px 10px;
+	  margin: 1em 2em;
+	color:white; 
+	background: rgb(236, 10, 10);
+	border-radius:25px;
+	  clear: both;
+	margin-left: 49%;
+		
+	 &:before {
+	content: ' ';
+	height: 0;
+	position: absolute;
+	width: 0;
+	border: .6em solid transparent; 
+	   border-left-color: $indextfontColor; 
+	position: absolute;
+	bottom: 21%;
+	right: -15px;
+	} 
+}
+
+*/
 
 .chat-messages .message .meta {
 	font-size: 15px;
