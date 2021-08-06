@@ -1,4 +1,4 @@
-# chatTime
+# ChatTime
 Chatting Site where we can form groups and discuss
 # Run the project
 ```
