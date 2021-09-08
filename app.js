@@ -69,5 +69,5 @@ io.on('connection',socket => {
 });
 
 
-server.listen(PORT,() => console.log(`Server running at ${PORT}`) );
-// server.listen(process.env.PORT,process.env.IP);
+// server.listen(PORT,() => console.log(`Server running at ${PORT}`) );
+server.listen(process.env.PORT,process.env.IP);
